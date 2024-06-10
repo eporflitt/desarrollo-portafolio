@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.navbar .navbar-brand, 
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #cccccc;
+    color: #000000;
+}
+
+.container {
+    padding: 20px;
+}
+
+.section {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.section h2 {
+    background-color: #888888;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.section p,
+.section ul {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+    background-color: #cccccc;
+    padding: 100px 0;
+}
+
+.perfil-img {
+    width: 300px;
+    height: 300px;
+}
+
+.hero-section h1,
+.hero-section p {
+    color: #000000;
+}
+
+.download-cv {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.download-cv a {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-cv a:hover {
+    background-color: #cccccc;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #000000;
+}
+
+.card-text {
+    color: #333333;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/8f0330f8b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mi CV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portafolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#educacion">Educación</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/edgardo-porflitt-hidalgo-032801142/" target="_blank">LinkedIn</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/eporflitt" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero-section">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-2 text-center text-md-left">
+                    <h1 class="display-4 text-black">¡Hola, soy Edgardo Porflitt!</h1>
+                    <p class="lead text-black">Bienvenido a mi CV en línea. Aquí encontrarás información sobre mi educación, experiencia y habilidades.</p>
+                </div>
+                <div class="col-md-6 order-md-1 text-center">
+                    <img src="./assets/images/perfil.jpg" alt="Foto de perfil" class="perfil-img width 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center my-4">
+        <a href="./assets/pdf/cv.pdf" class="btn btn-primary" download>Descargar CV en PDF</a>
+    </div>
+
+    <div id="portfolio" class="section">
+        <h2>Portafolio</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./assets/images/proyecto0.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 1</h5>
+                        <p class="card-text">Este es mi primer proyecto desarrollado, consistente en la creación de mi CV deportivo con HTML.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./assets/images/proyecto1.jpg" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 2</h5>
+                        <p class="card-text">Segundo proyecto, correspondiente al segundo desafío de la carrera desarrollo full stack correspondiente a la creación de un landing page</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./assets/images/proyecto2.jpg" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p class="card-text">Tercer desafío de la carrera, correspondiente a la creación de un sitio web utilizando Flex para alinear contenido</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./assets/images/proyecto3.jpg" class="card-img-top" alt="Proyecto 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 4</h5>
+                        <p class="card-text">Cuarto desafío de la carrera, correspondiente a la creación de una página web utilizando Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="educacion" class="section mt-4">
+        <h2>Educación</h2>
+        <ul>
+            <li><strong>Universidad de Chile, Santiago, Santiago</strong><br>
+                Diplomado Gestión estratégica de abastecimiento, abril – agosto 2022<br>
+                Graduado
+            </li>
+            <li><strong>Universidad Diego Portales, Santiago, Santiago</strong><br>
+                Ingeniería Civil Industrial, marzo 2010 – diciembre 2016<br>
+                Graduado
+            </li>
+            <li><strong>Academia de Humanidades Padres Domínicos, Recoleta, Santiago</strong><br>
+                Educación básica y media, 1997 – 2009<br>
+                Graduado
+            </li>
+        </ul>
+    </div>
+
+    <div id="experiencia" class="section mt-4">
+        <h2>Experiencia</h2>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Centro Sismológico Nacional, Santiago Centro, Santiago
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <strong>Encargado de adquisiciones, octubre 2019 – septiembre 2022</strong>
+                        <ul>
+                            <li>Gestionar de proveedores</li>
+                            <li>Planificar y ejecutar procesos de compra</li>
+                            <li>Recopilar y analizar información para confección del plan anual de adquisiciones</li>
+                            <li>Analizar costos y desviaciones de la ejecución del presupuesto</li>
+                            <li>Gestionar inventario, manteniendo niveles óptimos</li>
+                            <li>Elaborar bases de licitación pública, informes de evaluación y administración de contratos</li>
+                            <li>Ejecutar el plan anual de adquisiciones</li>
+                            <li>Comunicación efectiva con distintos departamentos y proveedores</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Hospital Clínico Universidad de Chile, Independencia, Santiago
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <strong>Analista de abastecimiento, mayo 2017 - septiembre 2019</strong>
+                        <ul>
+                            <li>Gestionar procesos de abastecimiento de medicamentos para el Hospital mediante licitaciones públicas</li>
+                            <li>Elaborar reportes y presentaciones del área de abastecimiento a la dirección del Hospital</li>
+                            <li>Gestionar y controlar de manera mensual el comportamiento de inventario de medicamentos</li>
+                            <li>Gestionar y realizar seguimiento de órdenes de compra</li>
+                            <li>Negociar con proveedores estratégicos del rubro</li>
+                            <li>Evaluar el desempeño en licitaciones anteriores para mejorar estrategias futuras</li>
+                            <li>Mantener comunicación efectiva con clientes y proveedores</li>
+                        </ul>
+                        <strong>Analista de abastecimiento / Práctica profesional, verano 2016</strong>
+                        <ul>
+                            <li>Preparar bases de licitación pública para la adquisición de medicamentos</li>
+                            <li>Elaborar informes de evaluación y adjudicar licitaciones</li>
+                            <li>Generar informes de incumplimiento para aplicación de multas</li>
+                            <li>Realizar informes con detalle de los procesos de compra</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Universidad Mayor - Departamento de Gestión Financiera, Providencia, Santiago
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <strong>Ejecutivo de finanzas / Práctica, verano 2014/2015; 2013/2014</strong>
+                        <ul>
+                            <li>Atención de público que necesita normalizar deudas o cambiar formas de pago a través de pagarés, cheques, vale vista y otros medios de pago</li>
+                            <li>Gestionar cuentas de clientes</li>
+                            <li>Gestionar cobranza de facturas</li>
+                            <li>Realizar balance de caja diario</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            International Experience Canada
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        <strong>Reflections Car Wash, Calgary, Alberta<br>Car Detailer, noviembre 2022 – abril 2023</strong>
+                        <ul>
+                            <li>Limpieza interior y exterior de vehículos</li>
+                            <li>Restauración de superficies</li>
+                            <li>Corrección de pintura</li>
+                            <li>Atención al cliente y emisión de facturas</li>
+                        </ul>
+                        <strong>Terra Nova Motors, St John’s, Newfoundland<br>Wash bay attendant, mayo 2023 – septiembre 2023</strong>
+                        <ul>
+                            <li>Limpieza interior y exterior de vehículos nuevos y usados</li>
+                            <li>Pulido y corrección de pintura</li>
+                            <li>Registro e inspección de vehículos recién llegados</li>
+                            <li>Mantenimiento del área de lavado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="habilidades" class="section mt-4 mb-4">
+        <h2>Habilidades y Competencias</h2>
+        <ul>
+            <li><strong>Power BI</strong> – Análisis de datos y Business Intelligence, Udemy, octubre 2021</li>
+            <li><strong>Excel Nivel Avanzado</strong>, Instituto E-Class, junio 2021</li>
+            <li><strong>Curso de auditor en la norma ISO:9001</strong>, Instituto LW Capacitaciones, marzo 2021</li>
+            <li><strong>Compras Públicas</strong>, Acreditación Perfil Supervisor, octubre 2020</li>
+            <li><strong>Inglés nivel intermedio</strong>, Instituto E-class, junio 2020</li>
+            <li><strong>Certificación TOEIC Bridge</strong>, dominio de inglés</li>
+        </ul>
+    </div>
+
+    <div class="footer bg-dark text-white text-center py-3">
+        <a href="https://www.linkedin.com/in/edgardo-porflitt-hidalgo-032801142/" target="_blank" class="text-white mx-2">LinkedIn</a>
+        <a href="https://github.com/eporflitt" target="_blank" class="text-white mx-2">GitHub</a>
+        <p>&copy; 2024 Edgardo Porflitt</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
