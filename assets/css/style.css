@@ -51,12 +51,6 @@ body {
     padding: 100px 0;
 }
 
-.perfil-img {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-}
-
 .hero-section h1,
 .hero-section p {
     color: #000000;
